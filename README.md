@@ -37,20 +37,30 @@ Este projeto utiliza Inteligência Artificial (BERT em português) para detectar
 - Credenciais da API do Gmail (veja config/credentials.json).
 
 - **Instalação:**  
-    Copy git clone https://github.com/JVLT0/Sistema-de-Resposta-Automatizada-a-Incidentes-de-Phishing-em-E-mails-usando-IA  
-    cd projeto-phishing  
-- Instale os requerimentos para o projeto
-    data/install_requirements.py
+```bash
+git clone https://github.com/JVLT0/Sistema-de-Resposta-Automatizada-a-Incidentes-de-Phishing-em-E-mails-usando-IA
+cd projeto
+```
+- Instale os requerimentos para o projeto: 
+   ```bash 
+   data/install_requirements.py 
+   ```
 
 - **Configuração:**
-- Adicione suas credenciais do Gmail em 
+- Adicione suas credenciais do Gmail em:
+    ```bash
     config/client_secret.json
+    ```
 
 - Execute o treinamento do modelo (opcional):
+    ```bash
     Copy python src/ai/treinamento_bert.py
+    ```
 
 - **Iniciar o Sistema:**
+    ```bash
     Copy python src/main.py
+    ```
 
 # 📌 Estrutura do Projeto
 projeto-phishing/  
