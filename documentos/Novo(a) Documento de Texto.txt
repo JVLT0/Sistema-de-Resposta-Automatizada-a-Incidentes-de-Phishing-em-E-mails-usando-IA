@@ -1,0 +1,22 @@
+projeto/
+│
+├── venv/                  # Ambiente virtual
+├── data/                  # Dados brutos/processados
+│   └── dataset_emails.csv
+├── models/                # Modelos treinados
+│   └── modelo_bert_phishing.pth
+├── src/                   # Código-fonte
+│   ├── ai/
+│   │   └── treinamento_bert.py
+│   ├── auth/
+│   │   ├── __init__.py
+│   │   ├── gmailauth.py
+│   │   └── test.py
+│   ├── __init__.py
+│   └── main.py
+├── config/                # Arquivos de configuração
+│   ├── credentials.json
+│   └── client_secret.json
+│   └── token.json
+├── .gitignore             # Ignorar venv/, token.json, etc.
+└── README.md              # Documentação

@@ -1,0 +1,20 @@
+# Ignorar arquivos sensíveis
+config/token.json
+config/client_secret.json
+
+# Ignorar modelos grandes (se não usar Git LFS)
+models/*.pth
+
+# Ignorar ambiente virtual e cache
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar arquivos de IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Ignorar logs
+*.log
