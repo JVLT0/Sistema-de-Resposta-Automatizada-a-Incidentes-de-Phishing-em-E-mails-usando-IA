@@ -10,11 +10,11 @@ Este projeto utiliza Inteligência Artificial (BERT em português) para detectar
 - 🔄 Aprender continuamente com novos padrões de ataques.
 
 ## 🛠️ Principais Funcionalidades  
-- **Classificação de E-mails:**
+### **Classificação de E-mails:**
 - ✅ Legítimos: Exibidos normalmente.
 - ❌ Phishing: Bloqueados e reportados.
 
-- **Ações Automatizadas:**
+### **Ações Automatizadas:**
 - 🚨 Quarentena de e-mails maliciosos.
 - 📧 Notificação para equipes de segurança.
 
@@ -32,11 +32,11 @@ Este projeto utiliza Inteligência Artificial (BERT em português) para detectar
 - Docker (para deploy).
 
 # 🚀 Como Executar
-- **Pré-requisitos:**
+### **Pré-requisitos:**
 - Python 3.9+ e pip instalados.
 - Credenciais da API do Gmail (veja config/credentials.json).
 
-- **Instalação:**  
+### **Instalação:**  
 ```bash
 git clone https://github.com/JVLT0/Sistema-de-Resposta-Automatizada-a-Incidentes-de-Phishing-em-E-mails-usando-IA
 cd projeto
@@ -46,7 +46,7 @@ cd projeto
    data/install_requirements.py 
    ```
 
-- **Configuração:**
+### **Configuração:**
 - Adicione suas credenciais do Gmail em:
     ```bash
     config/client_secret.json
@@ -57,7 +57,7 @@ cd projeto
     Copy python src/ai/treinamento_bert.py
     ```
 
-- **Iniciar o Sistema:**
+### **Iniciar o Sistema:**
     ```bash
     Copy python src/main.py
     ```
