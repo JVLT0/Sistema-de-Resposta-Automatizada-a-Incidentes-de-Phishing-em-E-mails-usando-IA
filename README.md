@@ -58,9 +58,9 @@ cd projeto
     ```
 
 ### **Iniciar o Sistema:**
-    ```bash
-    Copy python src/main.py
-    ```
+```bash
+python src/main.py
+```
 
 # 📌 Estrutura do Projeto
 projeto-phishing/  
@@ -74,9 +74,8 @@ projeto-phishing/
 └── README.md  
 
 # 📊 Métricas de Desempenho
-Acurácia do Modelo: 95% (em testes com dataset balanceado).
-
-Tempo de Resposta: < 2 segundos por e-mail.
+- Acurácia do Modelo: 95% (em testes com dataset balanceado).
+- Tempo de Resposta: < 2 segundos por e-mail.
 
 # 🔄 Próximos Passos
 - 🔄 Adicionar suporte a mais provedores de e-mail (Outlook, Exchange).
